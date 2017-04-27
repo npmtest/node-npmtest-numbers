@@ -1,6 +1,6 @@
 # npmtest-numbers
 
-#### test coverage for  [numbers (v0.6.0)](https://github.com/numbers/numbers.js)  [![npm package](https://img.shields.io/npm/v/npmtest-numbers.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-numbers) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-numbers.svg)](https://travis-ci.org/npmtest/node-npmtest-numbers)
+#### basic test coverage for  [numbers (v0.6.0)](https://github.com/numbers/numbers.js)  [![npm package](https://img.shields.io/npm/v/npmtest-numbers.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-numbers) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-numbers.svg)](https://travis-ci.org/npmtest/node-npmtest-numbers)
 
 #### Advanced Mathematics Library for JavaScript
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-numbers/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-numbers/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-numbers/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-numbers/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-numbers/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-numbers/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-numbers/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-numbers/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-numbers/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-numbers/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-numbers/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-numbers/build/coverage.html/index.html)
 
@@ -115,7 +115,8 @@
         "lint": "gulp lint",
         "test": "gulp test"
     },
-    "version": "0.6.0"
+    "version": "0.6.0",
+    "bin": {}
 }
 ```
 
